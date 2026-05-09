@@ -54,8 +54,8 @@ pregnancies = st.sidebar.number_input('Pregnancies', 0, 20, 0)
 
 st.sidebar.subheader("Medical Measurements")
 # यहाँ 'st.' जोड़ा गया है
-glucose = st.sidebar.slider('Glucose (mg/dL)', 0, 200, 120)
-bp = st.sidebar.slider('Blood Pressure (mm Hg)', 0, 130, 70)
+glucose = st.sidebar.slider('Glucose (mg/dL)', 0, 500, 120)
+bp = st.sidebar.slider('Blood Pressure (mm Hg)', 0, 250, 70)
 skin = st.sidebar.slider("Skin Thickness (mm)", 0, 100, 20)
 insulin = st.sidebar.slider("Insulin (mu U/ml)", 0, 900, 80)
 bmi = st.sidebar.number_input('BMI', 10.0, 70.0, 25.0, 0.1)
